@@ -1,0 +1,120 @@
+/* style.css */
+
+/* Estiliza o HTML e o body para ocupar toda a altura da tela e definir margens e preenchimentos */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estiliza o cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Estiliza a barra de navegação */
+nav {
+    background-color: #444;
+    padding: 10px;
+}
+
+/* Estiliza os links de navegação */
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+
+/* Estiliza o efeito de passar o mouse sobre os links */
+nav a:hover {
+    background-color: #555;
+}
+
+/* Estiliza o contêiner principal */
+.container {
+    flex: 1; /* Flex-grow para ocupar o espaço disponível */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estiliza as seções */
+.section {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+/* Estiliza os títulos principais */
+h1, h2 {
+    color: #333;
+}
+
+/* Estiliza os cards de jogos */
+.game-card1 {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    max-width: 150px; /* Limita a largura máxima do card */
+}
+
+/* Estiliza as imagens dentro dos cards */
+.game-card img {
+    width: 100px; /* Ajusta a largura da imagem para o contêiner */
+    max-width: 150px; /* Limita a largura máxima da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+}
+/* Exemplo de regra CSS para .game-card2 */
+.game-card2 {
+    border: 1px solid #ddd; /* Define uma borda */
+    border-radius: 5px; /* Adiciona cantos arredondados */
+    overflow: hidden; /* Garante que o conteúdo não exceda os limites */
+    margin-bottom: 10px; /* Adiciona margem inferior */
+    display: flex; /* Define o layout flexível */
+    flex-direction: column; /* Organiza o conteúdo na coluna */
+    width: 100px; /* Define a largura para 100% do contêiner pai */
+    max-width: 150px; /* Define a largura máxima */
+}
+/* Exemplo de regra CSS para .game-card2 */
+.game-card3 {
+    border: 1px solid #ddd; /* Define uma borda */
+    border-radius: 5px; /* Adiciona cantos arredondados */
+    overflow: hidden; /* Garante que o conteúdo não exceda os limites */
+    margin-bottom: 10px; /* Adiciona margem inferior */
+    display: flex; /* Define o layout flexível */
+    flex-direction: column; /* Organiza o conteúdo na coluna */
+    width: 100px; /* Define a largura para 100% do contêiner pai */
+    max-width: 150px; /* Define a largura máxima */
+}
+
+/* Estiliza o conteúdo dentro dos cards */
+.game-card .content {
+    padding: 10px;
+}
+
+/* Estiliza os títulos dentro dos cards */
+.game-card .content h3 {
+    margin-top: 0;
+}
+
+/* Estiliza o rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
